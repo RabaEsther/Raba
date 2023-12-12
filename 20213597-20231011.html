@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ <script type="text/javascript">
+ <!--
+ var mp4=["v02004040000bpa9p3egncoejcefuv4g","v02004090000brsni7sd1]
+ //-->
+ 
+ </script>
+ <style type="text/css">
+   input{
+   font-size:2em;
+   margin-right:2em;
+   }
+ </style>
+ </head>
+ <body>
+  <video id="video"src="videoTemp/v02004040000bpa9p3egncoejcefuv4g">
+  </video>
+  </div>
+  <input type="button" value="PLAY" id="play">
+  <input type="button" value="STOP" id="stop">
+  <input type="button" value="NEXT" id="next">
+  </div>
+ </body>
+ <script type="text/javascript">
+ <!--
+ <script type="text/javascript">
+ <!--
+    var myVideo=document.getElementById("video");
+	var playB=document.getElementById("play");
+	var stopB=document.getElementById("stop");
+	var nextB=document.getElementById("next");
+    playB.onclick=function(){
+	myVideo.play();
+	};
+	stopB.onclick=function(){
+		myVideo.pause();
+	};
+    var i=0;
+	nextB.onclick=function(){
+		i++;
+		myVideo.src="videoTemp/"+mp4[i];
+		myVideo.play();
+	};
+</script>
+</html>
+
+
+
+
+
+
+
