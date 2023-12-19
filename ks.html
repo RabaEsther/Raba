@@ -6,7 +6,15 @@
   <title>ks</title>
 
  <style type="text/css">
+	.img{
+		width:800px;
+		height:300px;
+		position:absolute;
 
+		top:150px;
+		left:150px;
+		z-index:-1;
+		}
 	.abcdiv{
 		width:1500px;
 		height:830px;
@@ -172,15 +180,16 @@
  </style></head>
   <script src="ks.js"></script>
  <body>
-	       <div>
+
+  <div class="border" id="stage">
+        <video id="video"></video>
+        <audio id="audio"></audio>
+		<div class=img>
 	   <img src="https://rabaesther.github.io/RabaEsther/456.jpg">
 	   <img src="">
 	   <img src="">
 	   <img src="">
-	   </div>
-  <div class="border" id="stage">
-        <video id="video"></video>
-        <audio id="audio"></audio>
+
   </div>
   <div class="down">
 	<div class="h1">
